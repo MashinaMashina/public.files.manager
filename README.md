@@ -7,9 +7,10 @@
 1. Переходим в корень Битрикс
 2. 
 ```
-mkdir -p local/components/morozov/public.files.manager
-cd local/components/morozov/public.files.manager
+mkdir -p local/components/morozov
+cd local/components/morozov
 wget https://github.com/MashinaMashina/public.files.manager/archive/master.zip
 unzip master.zip
 rm master.zip
+mv public.files.manager-master public.files.manager
 ```
