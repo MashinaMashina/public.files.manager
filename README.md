@@ -13,4 +13,3 @@ wget https://github.com/MashinaMashina/public.files.manager/archive/master.zip
 unzip master.zip
 rm master.zip
 ```
-awd
