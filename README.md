@@ -14,3 +14,16 @@ unzip master.zip
 rm master.zip
 mv public.files.manager-master public.files.manager
 ```
+# Вызов компонента
+```php
+<?$APPLICATION->IncludeComponent(
+	"morozov:public.files.manager", 
+	".default", 
+	array(
+    "ACCESS_KEY" => "00000000000000000000000000000000",
+		"EXTENSIONS" => "",
+		"MULTIPLE" => "Y"
+	),
+	false
+);?>
+```
