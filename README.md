@@ -20,9 +20,13 @@ mv public.files.manager-master public.files.manager
 	"morozov:public.files.manager", 
 	".default", 
 	array(
-		"ACCESS_KEY" => "00000000000000000000000000000000",
 		"EXTENSIONS" => "",
-		"MULTIPLE" => "Y"
+		"MULTIPLE" => "Y",
+		"COMPONENT_TEMPLATE" => ".default",
+		"GROUPS_ACCESS" => array(
+			0 => "1",
+		),
+		"ACCESS_KEY" => "00000000000000000000000000000000"
 	),
 	false
 );?>
